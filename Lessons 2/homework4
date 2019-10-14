@@ -1,0 +1,3 @@
+words = input("Введите пару слов - ").split()
+for word in enumerate(words, 1):
+    print(' '.join([str(i) for i in word])[:11])

@@ -1,0 +1,11 @@
+my_rating = [7678]
+def rating():
+    try:
+        incoming = int(input())
+    except ValueError:
+        print('integer required')
+    my_rating.append(incoming)
+    my_rating.sort()
+    my_rating.reverse()
+    return my_rating
+rating()
