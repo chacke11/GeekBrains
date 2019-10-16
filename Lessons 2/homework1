@@ -1,6 +1,0 @@
-a = [True, False, 1.2, "Nik", 8 ] 
-my_list = [a]
-for el in a:
-    print(type (el))
-    print(el)
-
